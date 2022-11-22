@@ -23,7 +23,7 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl:
+      serverUrl:'http://app.jsvinfocom.com'
         description: 'Server URL'     
         required: true
       rid:
